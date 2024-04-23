@@ -19,4 +19,4 @@ The time-series analysis and data preprocessing are separated into the following
 
 This table compares some performance metrics of the models implemented in this project.
 
-![performance table](..\\data\\table.png "Title")
+![performance table](table.png "Title")

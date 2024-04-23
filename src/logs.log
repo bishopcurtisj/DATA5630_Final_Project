@@ -18317,3 +18317,45 @@
 2024-04-23 13:10:32,452:INFO:Soft dependency imported: catboost: 1.2.2
 2024-04-23 13:10:32,452:INFO:Soft dependency imported: catboost: 1.2.2
 2024-04-23 13:10:32,453:INFO:setup() successfully completed in 0.62s...............
+2024-04-23 13:10:40,488:INFO:Initializing create_model()
+2024-04-23 13:10:40,489:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000002C621351330>, estimator=auto_arima, fold=None, round=4, cross_validation=False, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-04-23 13:10:40,489:INFO:Checking exceptions
+2024-04-23 13:10:40,513:INFO:Importing libraries
+2024-04-23 13:10:40,513:INFO:Copying training dataset
+2024-04-23 13:10:40,518:INFO:Defining folds
+2024-04-23 13:10:40,518:INFO:Declaring metric variables
+2024-04-23 13:10:40,523:INFO:Importing untrained model
+2024-04-23 13:10:40,531:INFO:Auto ARIMA Imported successfully
+2024-04-23 13:10:40,537:INFO:Cross validation set to False
+2024-04-23 13:10:40,537:INFO:Fitting Model
+2024-04-23 13:11:11,087:INFO:_display_container: 2
+2024-04-23 13:11:11,088:INFO:AutoARIMA(random_state=3084, sp=7, suppress_warnings=True)
+2024-04-23 13:11:11,089:INFO:create_model() successfully completed......................................
+2024-04-23 13:11:11,293:INFO:Initializing create_model()
+2024-04-23 13:11:11,294:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000002C621351330>, estimator=ets, fold=None, round=4, cross_validation=False, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2024-04-23 13:11:11,294:INFO:Checking exceptions
+2024-04-23 13:11:11,312:INFO:Importing libraries
+2024-04-23 13:11:11,312:INFO:Copying training dataset
+2024-04-23 13:11:11,316:INFO:Defining folds
+2024-04-23 13:11:11,316:INFO:Declaring metric variables
+2024-04-23 13:11:11,321:INFO:Importing untrained model
+2024-04-23 13:11:11,328:INFO:ETS Imported successfully
+2024-04-23 13:11:11,334:INFO:Cross validation set to False
+2024-04-23 13:11:11,334:INFO:Fitting Model
+2024-04-23 13:11:11,766:INFO:_display_container: 3
+2024-04-23 13:11:11,767:INFO:AutoETS(seasonal='add', sp=7, trend='add')
+2024-04-23 13:11:11,767:INFO:create_model() successfully completed......................................
+2024-04-23 13:11:11,959:INFO:Initializing create_model()
+2024-04-23 13:11:11,959:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000002C621351330>, estimator=arima, fold=None, round=4, cross_validation=False, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={'order': (1, 1, 1), 'with_intercept': True})
+2024-04-23 13:11:11,959:INFO:Checking exceptions
+2024-04-23 13:11:11,978:INFO:Importing libraries
+2024-04-23 13:11:11,978:INFO:Copying training dataset
+2024-04-23 13:11:11,985:INFO:Defining folds
+2024-04-23 13:11:11,987:INFO:Declaring metric variables
+2024-04-23 13:11:11,991:INFO:Importing untrained model
+2024-04-23 13:11:11,998:INFO:ARIMA Imported successfully
+2024-04-23 13:11:12,003:INFO:Cross validation set to False
+2024-04-23 13:11:12,004:INFO:Fitting Model
+2024-04-23 13:11:13,913:INFO:_display_container: 4
+2024-04-23 13:11:13,914:INFO:ARIMA(order=(1, 1, 1), seasonal_order=(0, 1, 0, 7))
+2024-04-23 13:11:13,914:INFO:create_model() successfully completed......................................
