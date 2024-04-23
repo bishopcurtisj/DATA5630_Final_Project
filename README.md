@@ -2,11 +2,13 @@
 
 This project uses econometric, machine learning, and deep learning techniques such as ets, arima, decision trees, RNN, and LSTM models to predict the points scored by the San Antonio Spurs in a given game. I opted to normalize the observed scores using the opponents defensive rating in order to remove biases caused by variation in that measure. Future work could explore predicting the opponents defensive rating using the points scored as the predictor.
 
+If you'd rather view this project on github here is the [link](https://github.com/bishopcurtisj/DATA5630_Final_Project)
+
 ## Contents
 
 ### Data
 
-    The data was primarily sourced from [this](https://www.kaggle.com/datasets/wyattowalsh/basketball) kaggle dataset.
+The data was primarily sourced from this kaggle dataset. [link](https://www.kaggle.com/datasets/wyattowalsh/basketball)
 
 ### src
 
